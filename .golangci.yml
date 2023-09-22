@@ -1,0 +1,20 @@
+run:
+  go:'1.21'
+  timeout:10m
+
+linters:
+  enable-all:true 
+  disable:
+    - golint
+    - ifshort 
+    - scopelint
+    - exhaustivesstruct 
+    - nonsnakecase 
+    - malignet
+    - intefacer 
+    - depquard
+    - varcheck
+    - structcheck
+    - deadcode
+
+  
